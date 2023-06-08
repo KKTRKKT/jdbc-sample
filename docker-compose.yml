@@ -1,0 +1,12 @@
+version: "3.0"
+
+services:
+  postgres:
+    image: postgres
+    container_name: postgres
+    ports:
+      - 15432:5432
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=kktrkkt
+      - POSTGRES_PASSWORD=pass
